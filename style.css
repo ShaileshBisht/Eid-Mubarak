@@ -28,3 +28,12 @@ header {
   align-items: center;
   z-index: 1000;
 }
+
+header .logo {
+  position: relative;
+  color: #ff5e8e;
+  display: inline-block;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: 800;
+}
