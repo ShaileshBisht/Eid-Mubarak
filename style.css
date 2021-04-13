@@ -34,8 +34,23 @@ header .logo {
   color: #ff5e8e;
   display: inline-block;
   font-size: 2em;
+  opacity: 0;
   text-decoration: none;
   font-weight: 800;
+  animation: slide_left 0.5s linear forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes slide_left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 header ul {
@@ -176,6 +191,7 @@ header ul li a:hover {
 
   header ul li a {
     margin-left: 0;
+    font-size: 2em;
   }
 
   .navigation {
@@ -213,5 +229,11 @@ header ul li a:hover {
 
   .content .textBox p {
     font-size: 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .mosque {
+    opacity: 0.5;
   }
 }
