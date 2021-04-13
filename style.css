@@ -176,6 +176,10 @@ header ul li a:hover {
   justify-content: center;
   align-items: center;
   transition: 0.5 ease-in-out;
+
+  opacity: 0;
+  animation: slide_right 0.5s linear forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 .sci li a img {
