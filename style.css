@@ -42,3 +42,18 @@ header ul {
   position: relative;
   display: flex;
 }
+
+header ul li {
+  list-style: none;
+}
+
+header ul li a {
+  display: inline-block;
+  color: #0169b2;
+  font-weight: 600;
+  font-family: 1.1em;
+  margin-left: 10px;
+  padding: 8px 18px;
+  text-decoration: none;
+  user-select: none;
+}
