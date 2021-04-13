@@ -82,3 +82,8 @@ header ul li a:hover {
   line-height: 1.2em;
   font-weight: 700;
 }
+
+.content .textBox p {
+  font-size: 1.2em;
+  color: #333;
+}
