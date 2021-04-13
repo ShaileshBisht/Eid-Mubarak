@@ -37,3 +37,8 @@ header .logo {
   text-decoration: none;
   font-weight: 800;
 }
+
+header ul {
+  position: relative;
+  display: flex;
+}
