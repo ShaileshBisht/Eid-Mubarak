@@ -108,3 +108,17 @@ header ul li a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.sci li a {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  background: #0169b2;
+  border-radius: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2 ease-in-out;
+}
