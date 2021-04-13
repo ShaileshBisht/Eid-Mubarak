@@ -58,7 +58,8 @@ header ul li a {
   user-select: none;
 }
 
-header ul li a.active {
+header ul li a.active,
+header ul li a:hover {
   background: #0192b2;
   color: #fff;
   border-radius: 30px;
