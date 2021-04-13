@@ -146,6 +146,10 @@ header ul li a:hover {
   font-weight: 700;
   letter-spacing: 1px;
   text-decoration: none;
+
+  opacity: 0;
+  animation: slide_top 0.5s linear forwards;
+  animation-delay: 2s;
 }
 
 .sci {
