@@ -207,4 +207,11 @@ header ul li a:hover {
   .mosque {
     max-width: 400px;
   }
+  .content .textBox h2 {
+    font-size: 2.5em;
+  }
+
+  .content .textBox p {
+    font-size: 1em;
+  }
 }
