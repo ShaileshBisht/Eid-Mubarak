@@ -143,3 +143,32 @@ header ul li a:hover {
   right: 0;
   max-width: 600px;
 }
+
+@media (max-width: 991px) {
+  section {
+    padding: 150px 20px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #0169b2 url(./imgae/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 1000;
+    border-radius: 5px;
+  }
+}
