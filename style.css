@@ -57,3 +57,9 @@ header ul li a {
   text-decoration: none;
   user-select: none;
 }
+
+header ul li a.active {
+  background: #0192b2;
+  color: #fff;
+  border-radius: 30px;
+}
