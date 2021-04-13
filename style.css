@@ -110,6 +110,21 @@ header ul li a:hover {
   margin-bottom: 10px;
   line-height: 1.2em;
   font-weight: 700;
+  opacity: 0;
+  animation: slide_right 0.5s linear forwards;
+  animation-delay: 1.5s;
+}
+
+@keyframes slide_right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
 }
 
 .content .textBox p {
