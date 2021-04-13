@@ -136,3 +136,10 @@ header ul li a:hover {
   background: #ff5e8e;
   transform: translateY(-10px);
 }
+
+.mosque {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 600px;
+}
