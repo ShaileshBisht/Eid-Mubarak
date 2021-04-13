@@ -34,9 +34,9 @@ header .logo {
   color: #ff5e8e;
   display: inline-block;
   font-size: 2em;
-  opacity: 0;
   text-decoration: none;
   font-weight: 800;
+  opacity: 0;
   animation: slide_left 0.5s linear forwards;
   animation-delay: 0.2s;
 }
@@ -71,6 +71,20 @@ header ul li a {
   padding: 8px 18px;
   text-decoration: none;
   user-select: none;
+  opacity: 0;
+  animation: slide_top 0.5s linear forwards;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes slide_top {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 header ul li a.active,
