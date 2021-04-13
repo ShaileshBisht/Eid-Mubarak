@@ -64,3 +64,13 @@ header ul li a:hover {
   color: #fff;
   border-radius: 30px;
 }
+
+.content {
+  position: relative;
+  display: flex;
+}
+
+.content .textBox {
+  position: relative;
+  max-width: 550px;
+}
