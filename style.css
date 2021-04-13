@@ -171,4 +171,11 @@ header ul li a:hover {
     z-index: 1000;
     border-radius: 5px;
   }
+
+  .toggle.active {
+    background: #0169b2 url(./imgae/close.png);
+    background-image: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
