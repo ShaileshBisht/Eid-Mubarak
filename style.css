@@ -109,6 +109,10 @@ header ul li a:hover {
   justify-content: center;
 }
 
+.sci li {
+  list-style: none;
+}
+
 .sci li a {
   position: relative;
   display: inline-block;
@@ -120,5 +124,15 @@ header ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.2 ease-in-out;
+  transition: 0.5 ease-in-out;
+}
+
+.sci li a img {
+  filter: invert(1);
+  transform: scale(0.7);
+}
+
+.sci li a:hover {
+  background: #ff5e8e;
+  transform: translateY(-10px);
 }
