@@ -100,3 +100,11 @@ header ul li a:hover {
   letter-spacing: 1px;
   text-decoration: none;
 }
+
+.sci {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
