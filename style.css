@@ -130,6 +130,9 @@ header ul li a:hover {
 .content .textBox p {
   font-size: 1.2em;
   color: #333;
+  opacity: 0;
+  animation: slide_left 0.5s linear forwards;
+  animation-delay: 1.75s;
 }
 
 .content .textBox a {
